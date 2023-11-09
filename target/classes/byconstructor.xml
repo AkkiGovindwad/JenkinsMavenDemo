@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+    
+    <bean id="categories" class="com.byconstructor.Categories" autowire="constructor">
+    <constructor-arg value="LifeInsurance"></constructor-arg>
+    </bean>
+    
+    <bean id="poliy" class="com.byconstructor.Policy">
+    
+    <constructor-arg value="TeremPlan"></constructor-arg>
+    <constructor-arg value="8500"></constructor-arg>
+    </bean>
+    
+    </beans>
