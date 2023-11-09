@@ -18,6 +18,7 @@ public class Policy {
 	}
 	@Override
 	public String toString() {
+		System.out.println("Hello");
 		return "Policy [planName=" + planName + ", planAmount=" + planAmount + "]";
 	}
 	
